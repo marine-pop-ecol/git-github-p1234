@@ -1,0 +1,27 @@
+---
+title: "Assignment 1"
+author: "Payton Arthur"
+date: "14/10/2021"
+output: pdf_document
+---
+
+```{r}
+install.packages("here")
+library(here)
+```
+
+
+Payton Arthur  
+**University of Calgary**  
+*Blue*
+```{r}
+ x = c(1,2,3)
+ y = c(3,4,5)
+ 
+ data=data.frame(x,y)
+```
+
+```{r}
+write.csv(data,here("./data/student-data.csv"))
+```
+
